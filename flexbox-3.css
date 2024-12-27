@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.side-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7EEFF;
+    max-width: 104px;
+    width: 100%;
+}
+
+.aside-div {
+    display: flex;
+    flex-direction: column;
+    height: 992px;
+    flex-shrink: 24px;
+    gap: 24px;
+    padding: 12px 28px 708px 28px;
+}
+
+.logo {
+    display: flex;
+    border-bottom: 1px solid #002B81;
+}
+
+.header-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7EEFF;
+}
+
+.header-text-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 326px;
+}
+
+.header-last-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+main {
+    width: 100%;
+}
+
+.last-container-text {
+    color: #5E6577;
+    font-size: 16px;
+}
+
+input {
+    all: unset;
+    width: 300px;
+}
+
+.main-navigation-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding-right: 96px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.nav-text {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.nav-start {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-top: 42px;
+}
+
+.villas-main-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+}
+
+.villas-div {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    padding: 10px ;
+}
+
+.house-choice-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.description-div {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+
+.description {
+    color: #000;
+    font-size: 18px;
+}
+
+.description-text {
+    color: #606060;
+    font-size: 14px;
+}
